@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.card{
+    width: 40%;
+    min-width: 320px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background-color: #b6bfc8;
+}
+
+#date-input{
+    font-size: 20px;
+    height: 40px;
+    background-color: #1a75ff;
+}
+
+.result{
+    width: 100px;
+    background-color: #1a75ff;
+}
+
+.result span{
+    font-size: 25px;
+    font-weight: 500;
+}
